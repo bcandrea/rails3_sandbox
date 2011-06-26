@@ -11,7 +11,7 @@ describe PagesController do
     it "should have the right title" do
       get 'home'
       response.should have_selector("title",
-                                    :content => "Rails3 Sandbox | Home")
+                                    :content => "Rails 3 Sandbox | Home")
     end
   end
 
@@ -23,7 +23,7 @@ describe PagesController do
     it "should have the right title" do
       get 'contact'
       response.should have_selector("title",
-                                    :content => "Rails3 Sandbox | Contact")
+                                    :content => "Rails 3 Sandbox | Contact")
     end
   end
 
@@ -35,7 +35,7 @@ describe PagesController do
     it "should have the right title" do
       get 'about'
       response.should have_selector("title",
-                                    :content => "Rails3 Sandbox | About")
+                                    :content => "Rails 3 Sandbox | About")
     end
   end
 
